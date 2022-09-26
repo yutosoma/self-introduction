@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html　lang="en">
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>htmlcss模写課題</title>
+	<style>
+		body {
+		margin: 0;
+		}
+		/*header-----------------------------------------------------------*/
+		header{
+		background-color: #202f55;
+		padding: 20px 40px; 
+		}
+		img {
+		width: 100px;
+		}
+		
+		#container {
+		display: flex;
+		}
+		
+		/*wrapper-left-----------------------------------------------------------*/
+		wrapper-left {
+		background-color: #00734d;
+		padding: 20px;
+		width: 19%;
+		}
+		.big-headline {
+		font-size: 25px;
+		color: #f00;
+		}
+		.paragraph1 {
+		font-size: 18px;
+		margin: 10px 0 20px 0;
+		}
+		.paragraph2 {
+		font-size: 18px;
+		}
+		span {
+		font-size: 10px;
+		}
+		
+		/*wrapper-right-----------------------------------------------------------*/
+		wrapper-right {
+		background-color: #8c2727;
+		padding: 20px;
+		width: 81%;
+	    font-family: 'Roboto', sans-serif;
+		}
+		.crosshead {
+		font-size: 20px;
+		color: #00f;
+		font-family: initial;
+		}
+		ul {
+		display: flex;
+		list-style: none;
+		color: #fff;
+		margin: 20px 0 50px 0;
+		padding-left: 5px;
+		}
+		li{
+		color: #fff;
+		background-color: #333;
+		padding: 5px 30px;
+		margin-right: 20px;
+		border: 1px #d98d30 solid;
+		}
+		li .link {
+		color: #fff;
+		text-decoration: none;
+		font-family: initial;
+		}
+		.date {
+		font-size: 18px;
+		}
+		.text {
+		font-size: 18px;
+		color: #999;
+		font-family: initial;
+		}
+		
+		/*footer-----------------------------------------------------------*/
+		footer{
+		background-color: #d98d30;
+		padding: 20px 40px;
+		display: flex;
+		justify-content: space-between;
+		}
+		.subheading {
+		color: #0f0;
+		}
+		.copyright-notice {
+		font-size: 18px
+		}
+		
+	</style>
+<head>
+<body>
+	<header>
+		<img src="logo_03.png" alt= "logo">
+	</header>
+		<div id ="container">
+			<wrapper-left>
+				<h1 class="big-headline">大見出し</h1>
+				<p class="paragraph1">大見出しテキスト<span>大見出しテキスト</span>大見出しテキスト<br>大見出しテキスト<br>
+				大見出しテキスト大見出しテキスト大見出しテキスト
+				</p>
+				
+				<p class="paragraph2">大見出しテキスト大見出しテキスト大見出しテキスト<br>
+				大見出しテキスト<br>
+				大見出しテキスト<span>大見出しテキスト</span>大見出しテキスト<br>大見出しテキスト
+				</p>
+			</wrapper-left>
+				
+			<wrapper-right>
+				<h2 class="crosshead">中見出し</h2>
+				<ul>
+					<li><a href="#" class="link">link_1</a></li>
+					<li><a href="#" class="link">link_2</a></li>
+					<li><a href="#" class="link">link_3</a></li>
+				</ul>
+				<p class="date">2021/01/01</p>
+				<p class="text">datelistテキストdatelistテキストdatelistテキスト<br>
+				datelistテキストdatelistテキスト<br>
+				<p/>
+				
+				<p class="date">2021/02/22</p>
+				<p class="text">datelistテキストdatelistテキスト<br>
+				datelistテキストdatelistテキストdatelistテキストdatelistテキスト<br>
+				</p>
+				
+				<p class="date">2021/12/09</p>
+				<p class="text">datelistテキストdatelistテキストdatelistテキスト<br>
+				datelistテキストdatelistテキストdatelistテキストdatelistテキスト<br>
+				datelistテキストdatelistテキスト
+				</p>
+			</wrapper-right>
+		</div>
+	
+	<footer>
+		<div class="subheading">小見出し</div>
+		<div class="copyright-notice">ⒸPuzzle_03<div>
+	</footer>
+	
+</body>
+</html>
